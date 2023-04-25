@@ -1,3 +1,4 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
@@ -901,7 +902,6 @@
 *.strings filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.purchasing@4.7.0/Plugins/UnityPurchasing/unitypurchasing.bundle/Contents/_CodeSignature/CodeResources filter=lfs diff=lfs merge=lfs -text
 *.svg filter=lfs diff=lfs merge=lfs -text
-*.psd filter=lfs diff=lfs merge=lfs -text
 *.cginc filter=lfs diff=lfs merge=lfs -text
 *.shader filter=lfs diff=lfs merge=lfs -text
 *.unitypackage filter=lfs diff=lfs merge=lfs -text
